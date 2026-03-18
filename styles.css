@@ -36,10 +36,15 @@ aside {
     gap: 1.1rem;
 }
 
+.dashboard-container > p {
+    font-size: 2.5rem;
+}
+
 aside > div:nth-child(2),
 aside > div:nth-child(3) {
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
     gap: 2rem;
     color: white;
 }
@@ -56,8 +61,8 @@ svg {
 }
 
 .dashboard-container > svg {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .header {
@@ -65,6 +70,7 @@ svg {
     grid-template-rows: 1fr 2fr;
     grid-area: 1 / 2 / 2 / 3;
     padding-top: .5rem;
+    padding-left: 2rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
     z-index: 1;
 }
@@ -168,7 +174,7 @@ svg {
 
 main {
     display: grid;
-    grid-template-columns: 3.3fr 1fr;
+    grid-template-columns: 3fr 1fr;
     background-color: #e3e3e3;
 }
 
@@ -181,7 +187,7 @@ main > section:first-child {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1.5rem 1rem;
+    padding: 2rem 2rem;
 }
 
 main > section:first-child > p:first-child {
@@ -191,17 +197,19 @@ main > section:first-child > p:first-child {
 
 main > section:first-child > div {
     display: grid;
-    height: 95%;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 main > section:first-child > div > article {
     background-color: #fff;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 12px;
     border-left: solid 1rem rgb(255, 171, 44);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 main > section:first-child > div > article > div {
@@ -211,19 +219,18 @@ main > section:first-child > div > article > div {
 }
 
 main > section:first-child > div > article > div > p:first-child {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
 main > section:first-child > div > article > div > p:nth-child(2) {
     color: rgb(132, 132, 132);
-    padding-right: 10rem;
+    font-size: 1.2rem;
 }
 
 main > section:first-child > div > article > div:nth-child(2) {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    margin-top: 6.5rem;
     gap: 2rem;
 }
