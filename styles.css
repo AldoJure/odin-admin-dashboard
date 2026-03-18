@@ -234,3 +234,89 @@ main > section:first-child > div > article > div:nth-child(2) {
     justify-content: end;
     gap: 2rem;
 }
+
+.right-section {
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.right-section .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+
+.tegan {
+    background-color: #e4fdff;
+}
+
+.kendall {
+    background-color: #c7c7c7;
+}
+
+.alex {
+    background-color: #ffd0d0;
+}
+
+.right-section .image-container img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.right-section > div:first-child {
+    margin-bottom: 2rem;
+}
+
+.right-section > div:first-child > div {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.right-section > div:first-child > div > div:not(:last-child) {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 3px rgb(205, 205, 205);
+}
+
+.right-section > div:first-child > div  p:first-child {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.right-section > div:first-child > div  p:last-child {
+    margin-top: .3rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+.right-section > div:first-child,
+.right-section > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right-section > div:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.right-section > div > p {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.right-section > div:nth-child(2) > div > div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
